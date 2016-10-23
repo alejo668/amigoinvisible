@@ -1,11 +1,22 @@
-
-// TODO: ordenar lista de nombres alfabeticamente
-
-var resultData = $.getJSON("data.json", function(data){
-    $.each(data.content, function(i, field){
-        console.log("field: " + field);
+var resultData = {};
+window.onload = function(){
+  var names = [];
+  $.getJSON( "data.json", function( data ) {
+    $.each( data, function( key, val ) {
+      resultData[key] = val;
+      names.push(key);
     });
-});
+
+    names.sort();
+    var select = document.getElementById("users");
+    for (var i = 0, len = names.length; i < len; i++) {
+      var option = document.createElement("option");
+      option.text = names[i];
+      option.value = names[i];
+      select.appendChild(option);
+    }
+  });
+}
 
 var form = document.getElementById("search-result");
 // form.noValidate = true;
@@ -20,10 +31,10 @@ button.addEventListener("touchend", function () {
 });
 
 var showResult = function() {
-  var user = document.getElementById("user").value;
+  var user = document.getElementById("users").value;
   var pass = document.getElementById("pass").value;
   var resultElem = document.getElementById("result");
-  if (resultData[user] != null && resultData[user]["pass"] === pass) {
-    resultElem.innerHTML=resultData[user]["amigo"];
+  if (resultData[user] != null && resultData[user].password === pass) {
+    resultElem.innerHTML=resultData[user].amigo;
   }
 }

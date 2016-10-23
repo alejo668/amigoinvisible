@@ -1,20 +1,20 @@
-var participantsList = ["mari", "alejo", "elena", "mcarmen", "antonio", "cristian", "david", "encarnita", "jose", "mjose", "alberto", "sonia", "jesus", "loli"];
+var participantsList = ["Mari hija","Alejo","Elena","Mari Carmen madre","Antonio","Cristian","David","Encarnita","Jose","Maria Jose","Alberto","Sonia","Jesus","Loli"];
 
 var participantsData = {
-  "mari": {group: 0},
-  "alejo": {group: 1},
-  "elena": {group: 1},
-  "mcarmen": {group: 2},
-  "antonio": {group: 2},
-  "cristian": {group: 3},
-  "david": {group: 3},
-  "encarnita": {group: 3},
-  "jose": {group: 4},
-  "mjose": {group: 4},
-  "alberto": {group: 5},
-  "sonia": {group: 5},
-  "jesus": {group: 6},
-  "loli": {group: 6}
+  "Mari hija": {group: 0},
+  "Alejo": {group: 1},
+  "Elena": {group: 1},
+  "Mari Carmen madre": {group: 2},
+  "Antonio": {group: 2},
+  "Cristian": {group: 3},
+  "David": {group: 3},
+  "Encarnita": {group: 3},
+  "Jose": {group: 4},
+  "Maria Jose": {group: 4},
+  "Alberto": {group: 5},
+  "Sonia": {group: 5},
+  "Jesus": {group: 6},
+  "Loli": {group: 6}
 };
 
 var form = document.getElementById("generator");

@@ -30,21 +30,22 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-                <article>
-                    <header>
-                        <h1>Instrucciones</h1>
-                        <p>Introduce tu nombre y contraseña para ver quien te ha tocado</p>
-                    </header>
-                </article>
-                <div>
                   <form id="search-result" novalidate>
-                    Selecciona tu nombre: <input id="user" type="text" name="name"><br>
-                    Contraseña: <input id="pass" type="password" name="password"><br>
-                    <button id="send">buscar</button>
+                    <label>Selecciona tu nombre: </label>
+                    <select id = "users">
+                      <option value = "0">-----------</option>
+                    </select>
+                    <br>
+                    <label>Contraseña: </label>
+                    <input id="pass" type="password" name="password">
+                    <br>
+                    <button id="send">Buscar</button>
                   </form>
-                </div>
-                <div>
-                  Resultado: <span id="result"></span>
+                  <br>
+                  <div class="result">
+                    <span>Te ha tocado... </span>
+                    <span id="result"></span>
+                  </div>
                 </div>
 
             </div> <!-- #main -->

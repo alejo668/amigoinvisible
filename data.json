@@ -1,1 +1,77 @@
-{"Mari hija":{"group":0,"password":"VIQ8J","amigo":"Antonio"},"Alejo":{"group":1,"password":"G0BED","amigo":"Sonia"},"Elena":{"group":1,"password":"TX4I7","amigo":"Cristian"},"Mari Carmen madre":{"group":2,"password":"CNQSC","amigo":"Alberto"},"Antonio":{"group":2,"password":"B3FJ8","amigo":"Sonia(David)"},"Cristian":{"group":3,"password":"2ZBXJ","amigo":"Loli"},"Encarnita":{"group":4,"password":"MMN9U","amigo":"Jose"},"David":{"group":5,"password":"4M2FF","amigo":"Alejo"},"Sonia(David)":{"group":5,"password":"D9SPQ","amigo":"Jesus"},"Jose":{"group":6,"password":"ON1OF","amigo":"Mari Carmen madre"},"Maria Jose":{"group":6,"password":"BU89M","amigo":"Encarnita"},"Alberto":{"group":7,"password":"5BDQK","amigo":"Elena"},"Sonia":{"group":7,"password":"65B8E","amigo":"Maria Jose"},"Jesus":{"group":8,"password":"JG3AC","amigo":"David"},"Loli":{"group":8,"password":"JZGHH","amigo":"Mari hija"}}
+{
+  "Mari hija": {
+    "group": 0,
+    "password": "P39IP",
+    "amigo": "Antonio"
+  },
+  "Alejo": {
+    "group": 1,
+    "password": "OIR36",
+    "amigo": "Jose"
+  },
+  "Elena": {
+    "group": 1,
+    "password": "NWE8I",
+    "amigo": "Cristian"
+  },
+  "Mari Carmen madre": {
+    "group": 2,
+    "password": "PEWKM",
+    "amigo": "Encarnita"
+  },
+  "Antonio": {
+    "group": 2,
+    "password": "MNW1S",
+    "amigo": "Loli"
+  },
+  "Cristian": {
+    "group": 3,
+    "password": "KRNLT",
+    "amigo": "David"
+  },
+  "Encarnita": {
+    "group": 4,
+    "password": "UET4T",
+    "amigo": "Sonia"
+  },
+  "David": {
+    "group": 5,
+    "password": "2LZZC",
+    "amigo": "Jesus"
+  },
+  "Sonia(David)": {
+    "group": 5,
+    "password": "BCO2R",
+    "amigo": "Mari Carmen madre"
+  },
+  "Jose": {
+    "group": 6,
+    "password": "MDXBT",
+    "amigo": "Sonia(David)"
+  },
+  "Maria Jose": {
+    "group": 6,
+    "password": "F5C29",
+    "amigo": "Elena"
+  },
+  "Alberto": {
+    "group": 7,
+    "password": "EYJTQ",
+    "amigo": "Mari hija"
+  },
+  "Sonia": {
+    "group": 7,
+    "password": "WWIUP",
+    "amigo": "Maria Jose"
+  },
+  "Jesus": {
+    "group": 8,
+    "password": "ZGVD2",
+    "amigo": "Alejo"
+  },
+  "Loli": {
+    "group": 8,
+    "password": "HOVX5",
+    "amigo": "Alberto"
+  }
+}
